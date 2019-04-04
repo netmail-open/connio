@@ -1,0 +1,9 @@
+TOP		= ..\..\..
+TARGET		= dll
+NAME		= libxplip
+OBJECTS		= ip.obj resolve.obj sockaddr.obj
+LIBRARIES	= $(LIB_MEMMGR) $(LIB_XPL)
+#EXTRA_FLAGS	= -DNO_LINUX_ONLY
+
+!include $(TOP)\watcom\\top.mak
+

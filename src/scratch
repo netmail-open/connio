@@ -1,0 +1,10 @@
+  xplip${BIT}
+  log${BIT}
+  memmgr${BIT}
+  iob${BIT}
+  wjreader${BIT}
+  wjwriter${BIT}
+  wjelement${BIT}
+  ${RT_LIBS}
+  ${OPENSSL_LIBS}
+  ${PTHREADS_LIBS}
